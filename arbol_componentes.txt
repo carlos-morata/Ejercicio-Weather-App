@@ -1,0 +1,22 @@
+App --> App.jsx
+    Header --> Header.jsx -> <header>
+        <h1>Título de la Web</h1>
+        <form>
+            <input type=text /> - Buscador
+            <button type=submit>Buscar</button>
+        </form>
+    </header>
+
+    Main --> Main.jsx -> <main>
+        Weatherlist --> Weatherlist.jsx -> <ul> - Pronóstico semanal
+            <li>Pronóstico Lunes</li>
+            <li>Pronóstico Martes</li>
+            <li>etc</li>
+        </ul>
+        WeatherCard --> WeatherCard.jsx -> <ul> - Información dlas próximas horas
+            <li>Información 10:00</li>
+            <li>Información 11:00</li>
+            <li>etc</li>
+        </ul>
+    </main>
+    Footer --> Footer.jsx -> <footer></footer>
