@@ -1,0 +1,14 @@
+.container-main {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    row-gap: 20px;
+    margin-top: 10px;
+    box-sizing: var(--border-box);
+}
+
+.container-main h2 {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+}

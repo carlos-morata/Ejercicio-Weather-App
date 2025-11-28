@@ -1,0 +1,26 @@
+App --> App.jsx
+    Header --> Header.jsx -> <header>
+        <h1>Título de la Web</h1>
+        <form>
+            <input type=text /> - Buscador
+            <button type=submit>Buscar</button>
+        </form>
+    </header>
+
+    Main --> Main.jsx -> <main>
+        Weatherlist --> Weatherlist.jsx -> <ul> - Pronóstico semanal
+            <li>Pronóstico Lunes</li>
+            <li>Pronóstico Martes</li>
+            <li>etc</li>
+        </ul>
+        WeatherCard --> WeatherCard.jsx -> <ul> - Información de las próximas horas
+            <li>Información 10:00</li>
+            <li>Información 11:00</li>
+            <li>etc</li>
+        </ul>
+    </main>
+    Footer --> Footer.jsx -> <footer></footer>
+
+1. El header envía la ciudad que el usuario ha escrito a App.jsx. 
+2. Luego, App.jsx hace la llamada a la API y le pasa la información a Main.jsx. 
+3, Main.jsx conecta con WeatherList y WeatherCard, cada uno crea un <ul> con <li> para la información de días / horas
