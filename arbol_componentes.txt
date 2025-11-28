@@ -13,10 +13,14 @@ App --> App.jsx
             <li>Pronóstico Martes</li>
             <li>etc</li>
         </ul>
-        WeatherCard --> WeatherCard.jsx -> <ul> - Información dlas próximas horas
+        WeatherCard --> WeatherCard.jsx -> <ul> - Información de las próximas horas
             <li>Información 10:00</li>
             <li>Información 11:00</li>
             <li>etc</li>
         </ul>
     </main>
     Footer --> Footer.jsx -> <footer></footer>
+
+1. El header envía la ciudad que el usuario ha escrito a App.jsx. 
+2. Luego, App.jsx hace la llamada a la API y le pasa la información a Main.jsx. 
+3, Main.jsx conecta con WeatherList y WeatherCard, cada uno crea un <ul> con <li> para la información de días / horas

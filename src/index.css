@@ -1,0 +1,23 @@
+:root {
+    --black: #000;
+    --white: #fff;
+    --gray: #1D1C1E;
+    --gray2: #98989E;
+    --border-box: border-box;
+    --border-radius: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
